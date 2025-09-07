@@ -1,0 +1,38 @@
+📌 Proje Hakkında
+
+Bu proje, Bilgisayar Programlama-2 dersi kapsamında geliştirilmiş basit bir görev yönetim uygulamasıdır.
+Amaç, kullanıcının gün içindeki görevlerini düzenli bir şekilde eklemesi, önem sırasına göre sıralaması, tamamlaması veya silmesi için pratik bir arayüz sunmaktır.
+
+🛠 Kullanılan Teknolojiler
+
+Python
+
+Tkinter (grafik arayüz)
+
+JSON (veri saklama)
+
+📂 Temel Fonksiyonlar
+
+save_tasks → Görevleri tasks.json dosyasına kaydeder.
+
+load_tasks → Var olan görevleri dosyadan yükler.
+
+sort_tasks_by_priority → Görevleri otomatik olarak önem sırasına göre sıralar.
+
+add_task → Yeni görev ekler (isim, ayrıntı, öncelik).
+
+delete_task → Seçilen görevi siler.
+
+complete_task → Görevi tamamlanmış olarak işaretler.
+
+delete_all_tasks → Tüm görevleri siler.
+
+🎛 Arayüz Fonksiyonları
+
+Görev Ekle → Yeni görev oluşturma
+
+Görevi Sil → Seçili görevi kaldırma
+
+Görevi Bitir → Görevi tamamlanmış olarak işaretleme
+
+Tüm Görevleri Sil → Listedeki tüm görevleri temizleme
